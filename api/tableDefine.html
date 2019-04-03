@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>表定义(tableDefine)信息 | molicode使用说明</title>
+    <meta name="description" content="code generator, more template, any code">
+    
+    
+    <link rel="preload" href="/molicode_doc/assets/css/0.styles.f3030cfc.css" as="style"><link rel="preload" href="/molicode_doc/assets/js/app.e4c4c15f.js" as="script"><link rel="preload" href="/molicode_doc/assets/js/14.d242ef4e.js" as="script"><link rel="prefetch" href="/molicode_doc/assets/js/10.7d11052a.js"><link rel="prefetch" href="/molicode_doc/assets/js/11.8ca0081a.js"><link rel="prefetch" href="/molicode_doc/assets/js/12.6c09877a.js"><link rel="prefetch" href="/molicode_doc/assets/js/13.95d029aa.js"><link rel="prefetch" href="/molicode_doc/assets/js/15.db1d1bba.js"><link rel="prefetch" href="/molicode_doc/assets/js/16.7adba99d.js"><link rel="prefetch" href="/molicode_doc/assets/js/17.42481e5d.js"><link rel="prefetch" href="/molicode_doc/assets/js/18.b9fa9fea.js"><link rel="prefetch" href="/molicode_doc/assets/js/19.6777c176.js"><link rel="prefetch" href="/molicode_doc/assets/js/2.6c0d7e40.js"><link rel="prefetch" href="/molicode_doc/assets/js/3.2188da46.js"><link rel="prefetch" href="/molicode_doc/assets/js/4.fc814c84.js"><link rel="prefetch" href="/molicode_doc/assets/js/5.eb84f882.js"><link rel="prefetch" href="/molicode_doc/assets/js/6.55ab2b28.js"><link rel="prefetch" href="/molicode_doc/assets/js/7.ec3adf23.js"><link rel="prefetch" href="/molicode_doc/assets/js/8.188563b9.js"><link rel="prefetch" href="/molicode_doc/assets/js/9.26b16167.js">
+    <link rel="stylesheet" href="/molicode_doc/assets/css/0.styles.f3030cfc.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/molicode_doc/" class="home-link router-link-active"><!----> <span class="site-name">molicode使用说明</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/molicode_doc/" class="nav-link">首页</a></div><div class="nav-item"><a href="/molicode_doc/guide/" class="nav-link">指南</a></div><div class="nav-item"><a href="/molicode_doc/configuration/" class="nav-link">配置使用</a></div><div class="nav-item"><a href="/molicode_doc/api/" class="nav-link router-link-active">API</a></div><div class="nav-item"><a href="/molicode_doc/template/" class="nav-link">模板开发</a></div><div class="nav-item"><a href="/molicode_doc/awesome/" class="nav-link">awesome</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/molicode_doc/" class="nav-link">首页</a></div><div class="nav-item"><a href="/molicode_doc/guide/" class="nav-link">指南</a></div><div class="nav-item"><a href="/molicode_doc/configuration/" class="nav-link">配置使用</a></div><div class="nav-item"><a href="/molicode_doc/api/" class="nav-link router-link-active">API</a></div><div class="nav-item"><a href="/molicode_doc/template/" class="nav-link">模板开发</a></div><div class="nav-item"><a href="/molicode_doc/awesome/" class="nav-link">awesome</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/molicode_doc/api/" class="sidebar-link">API</a></li><li><a href="/molicode_doc/api/config.html" class="sidebar-link">config信息</a></li><li><a href="/molicode_doc/api/tableModel.html" class="sidebar-link">表模型（tableModel）信息</a></li><li><a href="/molicode_doc/api/column.html" class="sidebar-link">列（column）信息</a></li><li><a href="/molicode_doc/api/tableDefine.html" class="active sidebar-link">表定义(tableDefine)信息</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/molicode_doc/api/tableDefine.html#说明" class="sidebar-link">说明</a></li><li class="sidebar-sub-header"><a href="/molicode_doc/api/tableDefine.html#源码" class="sidebar-link">源码</a></li></ul></li><li><a href="/molicode_doc/api/pubutils.html" class="sidebar-link">通用工具类</a></li><li><a href="/molicode_doc/api/tableNameUtil.html" class="sidebar-link">表名称相关转换工具类</a></li></ul> </div> <div class="page"> <div class="content"><h1 id="表定义-tabledefine-信息"><a href="#表定义-tabledefine-信息" aria-hidden="true" class="header-anchor">#</a> 表定义(tableDefine)信息</h1> <h2 id="说明"><a href="#说明" aria-hidden="true" class="header-anchor">#</a> 说明</h2> <p>数据库表的定义，包含表的名称，中文名，全部列信息等。 映射到XML中的tableDefine节点。</p> <div class="language-xml extra-class"><pre class="language-xml"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tableModel</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tableDefine</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">'</span>AcCommonExtInfo<span class="token punctuation">'</span></span> <span class="token attr-name">cnname</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">'</span>扩展信息<span class="token punctuation">'</span></span> <span class="token attr-name">dbTableName</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">'</span>ac_common_ext_info<span class="token punctuation">'</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>column</span> <span class="token attr-name">dataName</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">'</span>id<span class="token punctuation">'</span></span> <span class="token attr-name">columnName</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">'</span>id<span class="token punctuation">'</span></span> <span class="token attr-name">cnname</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">'</span>id<span class="token punctuation">'</span></span> <span class="token attr-name">columnType</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">'</span>INT<span class="token punctuation">'</span></span> <span class="token attr-name">canBeNull</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">'</span>false<span class="token punctuation">'</span></span> <span class="token attr-name">readonly</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">'</span>false<span class="token punctuation">'</span></span> <span class="token attr-name">isPK</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">'</span>true<span class="token punctuation">'</span></span> <span class="token attr-name">length</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">'</span>10<span class="token punctuation">'</span></span> <span class="token attr-name">jspTag</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">'</span>TEXT<span class="token punctuation">'</span></span> <span class="token attr-name">dictName</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">'</span><span class="token punctuation">'</span></span> <span class="token attr-name">comment</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">'</span>id<span class="token punctuation">'</span></span> <span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>column</span> <span class="token attr-name">dataName</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">'</span>ownerType<span class="token punctuation">'</span></span> <span class="token attr-name">columnName</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">'</span>owner_type<span class="token punctuation">'</span></span> <span class="token attr-name">cnname</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">'</span>归属类型<span class="token punctuation">'</span></span> <span class="token attr-name">columnType</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">'</span>INT<span class="token punctuation">'</span></span> <span class="token attr-name">canBeNull</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">'</span>false<span class="token punctuation">'</span></span> <span class="token attr-name">readonly</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">'</span>false<span class="token punctuation">'</span></span> <span class="token attr-name">isPK</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">'</span>false<span class="token punctuation">'</span></span> <span class="token attr-name">length</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">'</span>10<span class="token punctuation">'</span></span> <span class="token attr-name">jspTag</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">'</span>SELECT<span class="token punctuation">'</span></span> <span class="token attr-name">dictName</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">'</span>acCommonExtInfo_ownerType_DICT<span class="token punctuation">'</span></span> <span class="token attr-name">comment</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">'</span>归属类型：1.系统，2.项目<span class="token punctuation">'</span></span> <span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tableDefine</span><span class="token punctuation">&gt;</span></span>
+
+    ...更多未展示...
+</code></pre></div><p>主要的方法和功能请参看源码。</p> <h2 id="源码"><a href="#源码" aria-hidden="true" class="header-anchor">#</a> 源码</h2> <div class="language-java extra-class"><pre class="language-java"><code>
+<span class="token comment">/**
+ * 表定义信息
+ * @author david
+ * @since 2018/12/12
+ */</span>
+<span class="token keyword">class</span> <span class="token class-name">TableDefineVo</span> <span class="token punctuation">{</span>
+    <span class="token comment">/**
+     * id
+     */</span>
+    <span class="token keyword">private</span> String id<span class="token punctuation">;</span>
+    <span class="token comment">/**
+     * 分页大小
+     */</span>
+    <span class="token keyword">private</span> String pageSize<span class="token punctuation">;</span>
+    <span class="token comment">/**
+     * 表中文名称
+     */</span>
+    <span class="token keyword">private</span> String cnname<span class="token punctuation">;</span>
+    <span class="token comment">/**
+     * 是否需要分页
+     */</span>
+    <span class="token keyword">private</span> Boolean isPaged<span class="token punctuation">;</span>
+    <span class="token comment">/**
+     * 数据库表名称
+     */</span>
+    <span class="token keyword">private</span> String dbTableName<span class="token punctuation">;</span>
+    <span class="token comment">/**
+     * 列map，方便通过key获取
+     */</span>
+    Map<span class="token generics function"><span class="token punctuation">&lt;</span>String<span class="token punctuation">,</span> ColumnVo<span class="token punctuation">&gt;</span></span> columnMap<span class="token punctuation">;</span>
+    <span class="token comment">/**
+     * 所有列
+     */</span>
+    <span class="token keyword">private</span> List<span class="token generics function"><span class="token punctuation">&lt;</span>ColumnVo<span class="token punctuation">&gt;</span></span> columns<span class="token punctuation">;</span>
+    <span class="token comment">/**
+     * 主键列
+     */</span>
+    <span class="token keyword">private</span> List<span class="token generics function"><span class="token punctuation">&lt;</span>ColumnVo<span class="token punctuation">&gt;</span></span> pkColumns<span class="token punctuation">;</span>
+
+
+    List<span class="token generics function"><span class="token punctuation">&lt;</span>ColumnVo<span class="token punctuation">&gt;</span></span> <span class="token function">getColumns</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> columns<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">void</span> <span class="token function">setColumns</span><span class="token punctuation">(</span>List<span class="token generics function"><span class="token punctuation">&lt;</span>ColumnVo<span class="token punctuation">&gt;</span></span> columns<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>columns <span class="token operator">=</span> columns<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    String <span class="token function">getId</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> id<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">void</span> <span class="token function">setId</span><span class="token punctuation">(</span>String id<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>id <span class="token operator">=</span> id<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    String <span class="token function">getPageSize</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> pageSize<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">void</span> <span class="token function">setPageSize</span><span class="token punctuation">(</span>String pageSize<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>pageSize <span class="token operator">=</span> pageSize<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    String <span class="token function">getCnname</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> cnname<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">void</span> <span class="token function">setCnname</span><span class="token punctuation">(</span>String cnname<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>cnname <span class="token operator">=</span> cnname<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    Boolean <span class="token function">getIsPaged</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> isPaged<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">void</span> <span class="token function">setIsPaged</span><span class="token punctuation">(</span>Boolean isPaged<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>isPaged <span class="token operator">=</span> isPaged<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    String <span class="token function">getDbTableName</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> dbTableName<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">void</span> <span class="token function">setDbTableName</span><span class="token punctuation">(</span>String dbTableName<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>dbTableName <span class="token operator">=</span> dbTableName<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+
+    Map<span class="token generics function"><span class="token punctuation">&lt;</span>String<span class="token punctuation">,</span> ColumnVo<span class="token punctuation">&gt;</span></span> <span class="token function">getColumnMap</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>columnMap <span class="token operator">==</span> null<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            columnMap <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">HashMap</span><span class="token generics function"><span class="token punctuation">&lt;</span>String<span class="token punctuation">,</span> ColumnVo<span class="token punctuation">&gt;</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">for</span> <span class="token punctuation">(</span>ColumnVo column <span class="token operator">:</span> columns<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                columnMap<span class="token punctuation">.</span><span class="token function">put</span><span class="token punctuation">(</span>column<span class="token punctuation">.</span><span class="token function">getColumnName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> column<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">return</span> columnMap<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">void</span> <span class="token function">setColumnMap</span><span class="token punctuation">(</span>Map<span class="token generics function"><span class="token punctuation">&lt;</span>String<span class="token punctuation">,</span> ColumnVo<span class="token punctuation">&gt;</span></span> columnMap<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>columnMap <span class="token operator">=</span> columnMap<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 通过列名获取列信息
+     * @param columnName 列名
+     * @return 列信息
+     */</span>
+    ColumnVo <span class="token function">getColumnByColumnName</span><span class="token punctuation">(</span>String columnName<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token function">getColumnMap</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>columnName<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 获取主键列表
+     * @return
+     */</span>
+    List<span class="token generics function"><span class="token punctuation">&lt;</span>ColumnVo<span class="token punctuation">&gt;</span></span> <span class="token function">getPkColumns</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>pkColumns <span class="token operator">==</span> null<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            PKFilter pkFilter <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">PKFilter</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            pkColumns <span class="token operator">=</span> pkFilter<span class="token punctuation">.</span><span class="token function">filterColumns</span><span class="token punctuation">(</span>columns<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">return</span> pkColumns<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 获取一个主键
+     * @return
+     */</span>
+    ColumnVo <span class="token function">getPkColumn</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        List<span class="token generics function"><span class="token punctuation">&lt;</span>ColumnVo<span class="token punctuation">&gt;</span></span> list <span class="token operator">=</span> <span class="token function">getPkColumns</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>CollectionUtils<span class="token punctuation">.</span><span class="token function">isEmpty</span><span class="token punctuation">(</span>list<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">return</span> null<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">return</span> list<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 获取变量名称
+     * @return
+     */</span>
+    String <span class="token function">getVarDomainName</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> TableNameUtil<span class="token punctuation">.</span><span class="token function">lowerCaseFirst</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>id<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+
+</code></pre></div></div> <div class="page-edit"><!----> <!----></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/molicode_doc/api/column.html" class="prev">
+          列（column）信息
+        </a></span> <span class="next"><a href="/molicode_doc/api/pubutils.html">
+          通用工具类
+        </a>
+        →
+      </span></p></div> </div> <!----></div></div>
+    <script src="/molicode_doc/assets/js/14.d242ef4e.js" defer></script><script src="/molicode_doc/assets/js/app.e4c4c15f.js" defer></script>
+  </body>
+</html>
